@@ -1,0 +1,15 @@
+﻿Reference,説明,資料形態,修改者
+serialNum,每筆資料的 Unique Key,Int,工程師
+student_id,學號,String,工程師
+password,密碼（預設生日-年月日）,String,工程師
+profileId,該賬號在雲端硬碟中文件夾的 ID,String,"InitialSystem, 工程師"
+recordId,該賬號在雲端硬碟中提交記錄 （record）的 ID,String,"InitialSystem, 工程師"
+isInfoComplete,報到資料是否填妥,Boolean,GSheet
+isPhotoUpload,學生證照片是否上傳,Boolean,GSheet
+hadUpload,必備文件是否上傳（開學前，居留證和賬戶為非必備）,Boolean,GSheet
+isUploadComplete,上傳階段是否完成,Boolean,AppScript
+editReq,老師通過管理員賬號提出的修改要求内容,String,AppScript
+isEdited,提出修改要求後，學生是否完成補充,Boolean,AppScript
+isFinish,是否完成報到,Boolean,AppScript
+isAdmin,是否爲後臺管理員,Boolean,工程師
+isViewer,是否爲後臺觀看者,Boolean,工程師

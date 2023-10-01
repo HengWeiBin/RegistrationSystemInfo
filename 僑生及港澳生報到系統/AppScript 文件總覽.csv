@@ -1,0 +1,29 @@
+﻿文件,功能,檔案類型,TODO
+controller,,GS,
+route,,GS,
+util,"基本function 及物件處理
+1. 對應表單的全域變數
+  a. sheetUser → id_pw
+  b. sheetInfo → 報到資料
+  c. sheetUpload → 資料上傳狀態",GS,
+Footer,,html,
+Head,,html,
+Header,,html,
+Modal,所有範例文件 的彈出小視窗,html,
+Script,submit 按鈕用的 EventListener,html,這邊應該要包含大量前端程式
+contact,,html,
+control,,html,
+countriesDatalist,所有國家列表（選單選項用）,html,
+departmentDatalist,所有系所列表（選單選項用）,html,
+info,1.填寫報到資料,html,
+login,,html,
+main,登入後的主頁面,html,
+readOnlyInfo,,html,
+submitInfoSuccess,,html,
+submitUpdateSuccess,,html,
+template,,html,
+update,,html,
+upload,2. 上傳報到文件,html,
+viewControl,,html,重複性網頁，應該合并到 control
+viewInfo,,html,重複性網頁，應該合并到 info
+viewUpload,,html,重複性網頁，應該合并到 upload
