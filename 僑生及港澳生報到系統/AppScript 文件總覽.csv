@@ -1,29 +1,29 @@
 ﻿文件,功能,檔案類型,TODO
-controller,,GS,
-route,,GS,
+controller,主要 function，為前端取得資料及發送Email 等,GS,更新文件上傳/讀取方式，不要用 ID 記錄在總表的方式，應該改爲通過學生登入資訊尋找相對文件夾找到文件。上傳文件時應該覆蓋舊檔案（刪除舊的再上傳）
+route,doGet、doPost 所在，主要控制頁面的切換,GS,
 util,"基本function 及物件處理
 1. 對應表單的全域變數
   a. sheetUser → id_pw
   b. sheetInfo → 報到資料
   c. sheetUpload → 資料上傳狀態",GS,
-Footer,,html,
-Head,,html,
-Header,,html,
+Footer,會被每頁 include 的頁面 Footer,html,
+Head,會被每頁 include 的 head,html,
+Header,會被每頁 include 的學校 logo，類似 navbar 的存在,html,移除或與其它文件合并
 Modal,所有範例文件 的彈出小視窗,html,
 Script,submit 按鈕用的 EventListener,html,這邊應該要包含大量前端程式
-contact,,html,
-control,,html,
+contact,而外緊急聯絡人的html檔，學生添加而外緊急聯絡人的時候會被 include,html,
+control,管理員模式界面,html,
 countriesDatalist,所有國家列表（選單選項用）,html,
 departmentDatalist,所有系所列表（選單選項用）,html,
 info,1.填寫報到資料,html,
-login,,html,
+login,登入頁,html,
 main,登入後的主頁面,html,
-readOnlyInfo,,html,
-submitInfoSuccess,,html,
-submitUpdateSuccess,,html,
-template,,html,
-update,,html,
+readOnlyInfo,個人基本資料（只讀）,html,重複性網頁，應該合并到 info，應該讓前端程式控制“只讀”
+submitInfoSuccess,資料上傳成功頁面,html,與 submitUpdateSuccess 合并
+submitUpdateSuccess,資料更新成功頁面,html,重複性網頁，應該合并到 submitInfoSuccess，應該讓前端程式控制顯示内容
+template,新增頁面參考模板,html,
+update,4. 更新報到資料,html,
 upload,2. 上傳報到文件,html,
-viewControl,,html,重複性網頁，應該合并到 control
-viewInfo,,html,重複性網頁，應該合并到 info
-viewUpload,,html,重複性網頁，應該合并到 upload
+viewControl,國際處（只讀）頁面,html,重複性網頁，應該合并到 control，應該讓前端程式控制“只讀”
+viewInfo,,html,重複性網頁，應該合并到 info，應該讓前端程式控制“只讀”
+viewUpload,3. 檢視報到文件,html,重複性網頁，應該合并到 upload，應該讓前端程式控制“只讀”
